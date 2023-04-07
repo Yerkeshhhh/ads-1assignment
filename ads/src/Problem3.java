@@ -1,26 +1,25 @@
 import java.util.Scanner;
 
 public class Problem3 {
-    public static boolean isPrime(int n, int i) {
-        if (n <= 2) {
-            return (n == 2);
-        } else if (n % i == 0) {
-            return false;
-        } else if (i * i > n) {
-            return true;
-        } else {
-            return isPrime(n, i+1);
-        }
+    public static void main(String[] args) {
+        System.out.println(Helper(7, 2));
     }
 
-    public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
-        int n = scan.nextInt();
-        boolean prime = isPrime(n, 2);
-        if (prime) {
-            System.out.println("prime");
-        } else {
-            System.out.println("сomposite");
+    public static boolean Helper(int i, int n) {
+        if (i<=1)
+            return true;
+        if (n%i==0)
+            return false;
+        else
+            return Helper(n, i-1);
+    }
+
+    public static boolean isPrime(int a,int i){
+        if(i <= 1){
+            return true;
+        } else if (a%i == 0) {
+            return false;
         }
+        return isPrime(a,i-1);
     }
 }
