@@ -3,7 +3,7 @@ public class Problem5 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int n= scanner.nextInt();
-        System.out.println("The " + n + "-th Fibonacci number is: " + fibonacci(n));
+        System.out.println(fibonacci(n));
     }
 
     public static int fibonacci(int n) {
