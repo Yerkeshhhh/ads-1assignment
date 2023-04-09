@@ -1,4 +1,10 @@
 import java.util.Scanner;
+
+/*
+@fibonacci - it takes the integer and returns n'th number in Fibonacci sequence
+n - inputted integer
+ */
+
 public class Problem5 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
