@@ -1,3 +1,12 @@
+
+/*
+computeGCD - computes the greatest common divisor (GCD) of two integers a and b
+a - first integer of GCD
+b - second integer of GCD
+
+ */
+
+
 public class Problem10 {
     public static int computeGCD(int a, int b) {
         if (b == 0) {
