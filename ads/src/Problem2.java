@@ -1,4 +1,11 @@
 import java.util.Scanner;
+/*
+arrayAverage - calculates the average value of an integer array
+arraySum - calculates the sum of all the elements in an integer array
+arr - array
+n - lenght of array
+ */
+
 
 public class Problem2 {
 
