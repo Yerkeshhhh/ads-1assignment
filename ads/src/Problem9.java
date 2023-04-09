@@ -1,3 +1,11 @@
+
+/*
+@compute - recursively computes the binomial coefficient
+n - size of set from which elements are chosen
+k- number of elements being chosen
+ */
+
+
 public class Problem9 {
 
     public static int compute(int n, int k) {
