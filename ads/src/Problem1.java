@@ -1,3 +1,12 @@
+
+/*
+findMinimum - finds the minimum value in an array of integers
+n - lenght of array
+arr - array
+ */
+
+
+
 public class Problem1 {
     public static int findMinimum(int[] arr, int n) {
         if (n == 1) {
