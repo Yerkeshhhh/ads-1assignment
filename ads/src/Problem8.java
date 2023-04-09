@@ -1,3 +1,10 @@
+
+
+/*
+@isAllDigits - recursively checks if all of its characters are digits in String
+s - inputted string
+ */
+
 public class Problem8 {
     public static boolean isAllDigits(String s) {
         if (s.isEmpty()) {
