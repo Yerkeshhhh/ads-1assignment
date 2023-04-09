@@ -1,3 +1,12 @@
+
+/*
+@reverse - it reverses the elements of array in order
+@reverseHelper - it is helper function that helps to the @reverse function to reverse
+arr - array
+start - starting index that represents the beginning
+end - ending index that represents the ending
+ */
+
 public class Problem7 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
